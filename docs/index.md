@@ -1,20 +1,20 @@
-# Welcome to Fetch.ai ecosystem
+# Добро пожаловать в экосистему Fetch.ai
 
 <div id="header-image-div"><img id="header-image" src="./images/fetchai.png" alt="interconnected systems such as parking, cloud, robots, and data"></div>
 
-## What is fetch.ai?
+## Что такое Fetch.ai?
 
-Our mission is to build the infrastructure required for developing modern, decentralized and peer-to-peer (P2P) applications that are free from centralized rent-seeking.
+Наша миссия заключается в создании инфраструктуры, необходимой для разработки современных, децентрализованных и одноранговых (P2P) приложений, свободных от централизованного поиска ренты.
 
-We achieve this by providing open-source software tools which you can use together with our interoperable decentralized network, to harness the power of AI and automation, and carry out complex tasks in the _digital economy_.
+Мы добиваемся этого, предоставляя программные инструменты с открытым исходным кодом, которые вы можете использовать вместе с нашей взаимодействующей децентрализованной сетью для использования возможностей искусственного интеллекта и выполнения сложных задач в _цифровой экономике_.
 
-## Get started
+## Начало работы
 
-The fetch ecosystem is made up of various tools and frameworks that help you build and jump-start your very own decentralized applications. Select one below to dive right in!
+Экосистема fetch состоит из различных инструментов и фреймворков, которые помогут вам создать и запустить ваши собственные децентрализованные приложения. Выберите один из них ниже, чтобы погрузиться в работу!
 
 <div id="diagram-container">
     <div class="diagram-row">
-        <p class="diagram-label">User facing tools</p>
+        <p class="diagram-label">Инструменты для работы с пользователями</p>
         <div class="diagram-row-container">
             <a href="https://aea-registry.fetch.ai/" target="_blank" class="diagram-item"><div>AEA Registry</div></a>
             <a href="https://aea-manager.fetch.ai/" target="_blank"  class="diagram-item"><div>AEA Manager</div></a>
@@ -23,7 +23,7 @@ The fetch ecosystem is made up of various tools and frameworks that help you bui
         </div>
     </div>
     <div class="diagram-row">
-        <p class="diagram-label">Tools that use the chain</p>
+        <p class="diagram-label">Инструменты, использующие цепь</p>
         <div class="diagram-row-container">
             <div class="diagram-item">
                 <a class="item-link" href="/aea" >
@@ -37,14 +37,14 @@ The fetch ecosystem is made up of various tools and frameworks that help you bui
         </div>
     </div>
     <div class="diagram-row">
-        <p class="diagram-label">Tools to directly interact with the chain</p>
+        <p class="diagram-label">Инструменты для прямого взаимодействия с цепью</p>
         <div class="diagram-row-container">
             <a href="/CosmPy" class="diagram-item">CosmPy</a>
-            <div class="diagram-item upcoming-feature">Upcoming Tool</div>
+            <div class="diagram-item upcoming-feature">Предстоящий инструмент</div>
         </div>
     </div>
     <div class="diagram-row">
-        <p class="diagram-label">The chain</p>
+        <p class="diagram-label">Цепь</p>
         <div class="diagram-row-container">
             <div class="diagram-item">
                 <a class="item-link" href="/ledger_v2" >
@@ -58,31 +58,31 @@ The fetch ecosystem is made up of various tools and frameworks that help you bui
     </div>
 </div>
 
-You can also jump straight into our GitHub repos:
+Вы также можете сразу перейти к нашим репозиториям на GitHub:
 
 - [Ledger (fetchd)](https://github.com/fetchai/fetchd)
 - [CosmPy](https://github.com/fetchai/cosmpy)
 - [AEA Framework (& ACN)](https://github.com/fetchai/agents-aea)
 - [Fetch Wallet](https://github.com/fetchai/fetch-wallet)
 
-## Help & Support
+## Помощь и поддержка
 
-If you want to report a bug or request a feature:
+Если вы хотите сообщить об ошибке или запросить функцию:
 
 - [Ledger (fetchd)](https://github.com/fetchai/fetchd/issues/new/choose)
 - [Cosmpy](https://github.com/fetchai/cosmpy/issues/new/choose)
 - [AEA Framework](https://github.com/fetchai/agents-aea/issues/new/choose)
 - [Documentation](https://github.com/fetchai/docs/issues/new/choose)
 
-Want to report a security vulnerability? Visit our [Bug Bounty](https://docs.fetch.ai/bug_bounty/).
+Хотите сообщить об уязвимости в системе безопасности? Посетите наш [Bug Bounty](https://docs.fetch.ai/bug_bounty/).
 
-## Questions & General Discussions  
+## Вопросы и общие обсуждения  
 
-Visit fetch.ai developer forums:
+Посетите форумы разработчиков fetch.ai::
 
 - [Ledger (fetchd)](https://github.com/fetchai/fetchd/discussions)
 - [CosmPy](https://github.com/fetchai/cosmpy/discussions)
 - [AEA Framework](https://github.com/fetchai/agents-aea/discussions)
 - [Fetch Wallet](https://github.com/fetchai/fetch-wallet/discussions)
 
-Chat with Fetch.ai developers on [discord](https://bit.ly/3ra5uMI).
+Общайтесь с разработчиками Fetch.ai в [discord](https://bit.ly/3ra5uMI).
