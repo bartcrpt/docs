@@ -1,58 +1,58 @@
-# Bug Bounty Program
+# Программа Bug Bounty
 
-The Fetch bug bounty program provides incentives for developers and security experts to report vulnerabilities in the Fetch ecosystem. 
+Программа вознаграждения за ошибки Fetch стимулирует разработчиков и экспертов по безопасности сообщать об уязвимостях в экосистеме Fetch. 
 
-The Fetch team has undertaken risk mitigation measures to limit the potential impacts of bugs or intentional misuse of the software and to ensure that all software has been internally audited and thoroughly tested. 
+Команда Fetch предприняла меры по снижению рисков, чтобы ограничить потенциальное воздействие ошибок или намеренного неправильного использования программного обеспечения, а также обеспечить, чтобы все программное обеспечение проходило внутренний аудит и тщательное тестирование. 
 
-In addition to the implemented safety measures, we are offering a bug bounty for the core components of the Fetch ecosystem as outlined under the [Scope](#scope) section below. The bug bounty program ensures that the software lives up to the highest standards possible and that the risk of users losing funds is at a minimum.
+В дополнение к принятым мерам безопасности мы предлагаем программу bug bounty для основных компонентов экосистемы Fetch, как указано ниже в разделе [Scope](#scope). Программа bug bounty, что программное обеспечение соответствует самым высоким стандартам и что риск потери средств пользователями минимален.
 
-## Scope
+## Область применения
 
-The scope of the bounty program extends to:
+Сфера действия программы вознаграждения распространяется на:
 
 - FetchD: <https://github.com/fetchai/fetchd>
 - Fetch Wallet: <https://github.com/fetchai/fetch-wallet>
 - The Block explorer: <https://github.com/fetchai/cosmos-explorer>
 - Documentation:: <https://github.com/fetchai/docs>
 - CosmPy: <https://github.com/fetchai/cosmpy>
-- AEA Framework, including the ACN and packages authored by Fetchai: <https://github.com/fetchai/agents-aea> and <https://pypi.org/project/aea>
+- AEA Framework, включая ACN и пакеты Fetchai: <https://github.com/fetchai/agents-aea> and <https://pypi.org/project/aea>
 - AEA Manager Website: <https://github.com/fetchai/agents-manager-app-site>
 
-## Classification
+## Классификация
 
-### Critical Bugs (awards up to 20,000 FET tokens)
+### Критические ошибки (награда до 20 000 токенов FET)
 
-Critical bugs are those that result in loss of funds or lead to a lack of availability of the network. This may be as a result of vulnerabilities found in the deployed and supported versions of the blockchain client, smart contracts or any of the other software outlined within the [Scope](#scope) section.
+Критические ошибки - это ошибки, которые приводят к потере средств или к отсутствию доступности сети. Это может быть результатом уязвимостей, обнаруженных в развернутых и поддерживаемых версиях клиента блокчейна, смарт-контрактов или любого другого программного обеспечения, описанного в разделе [Scope](#scope).
 
-### Non-critical Bugs (awards up to 10,000 FET tokens)
+### Некритические ошибки (награда до 10 000 токенов FET)
 
-Non-critical bugs are those that cannot cause loss of funds or any other type of economic loss. These types of bugs affect the experience of developers or users of the network and have a perceived or Fetch suggested workaround.
+Некритическими ошибками считаются те, которые не могут привести к потере средств или любому другому виду экономических потерь. Эти типы ошибок влияют на опыт разработчиков или пользователей сети и имеют предполагаемое или предлагаемое Fetch обходное решение.
 
-Awards are issued subject to reclassification and verification by the Fetch team.
+Награды выдаются при условии переклассификации и проверки командой Fetch.
 
-## How to Report
+## Как сообщить об ошибке
 
-Please follow the steps listed below to report your bug:
+Чтобы сообщить о своей ошибке, выполните следующие действия:
 
-- In an email, describe the issue clearly with reference to the underlying source code and indicate whether the bug is **Critical** or **Non-critical**.
-- Attach all relevant information that is required to reproduce the bug in a test environment.
-- Include the relevant version information associated with the faulty software of the components along with any other relevant system information such as OS versions.
-- Include suggested solutions and/or mitigations (if known).
-- Send this email to [bounty@fetch.ai](mailto:bounty@fetch.ai) and start the subject with your classification **Critical** or **Non-critical** followed by a short title of the bug.
+- В электронном письме четко опишите проблему со ссылкой на исходный код и укажите, является ли ошибка **критической** или **некритической**.
+- Приложите всю необходимую информацию, которая требуется для воспроизведения ошибки в тестовой среде.
+- Включите информацию о соответствующей версии, связанной с неисправным программным обеспечением компонентов, а также любую другую соответствующую информацию о системе, например, версию ОС.
+- Включите предлагаемые решения и/или меры по смягчению последствий (если они известны).
+- Отправьте это письмо по адресу [bounty@fetch.ai](mailto:bounty@fetch.ai) и начните тему с вашей классификации **Критическая** или **Некритическая**, за которой следует краткое название ошибки.
 
-The Fetch team will review your information and your classification of the bug. After reviewing, one of the Fetch developers will set out to reply within 2 working days to confirm whether the bug meets the requirements of the bug bounty program or to request more time to complete this assessment. The Fetch team will also post updates on the #bugs channel on our Discord server: <https://discord.gg/M9XmgyWzup>.
+Команда Fetch изучит вашу информацию и классификацию ошибки. После рассмотрения один из разработчиков Fetch ответит в течение 2 рабочих дней, чтобы подтвердить, соответствует ли ошибка требованиям программы bug bounty, или запросить дополнительное время для завершения оценки. Команда Fetch также будет публиковать обновления на канале #bugs на нашем сервере Discord: <https://discord.gg/M9XmgyWzup>.
 
-For non-critical bugs, the Fetch team will create an issue or a pull request allowing you to follow the progress on the bug fix.
+Для некритических ошибок команда Fetch создаст задачу или запрос на исправление, что позволит вам следить за ходом исправления ошибки.
 
-For critical bugs that can result in loss of funds, it is important that the Fetch team has an opportunity to deploy a patched version before the exploit is acknowledged publicly. Hence, critical bugs and their fixes will be shared after the code is patched to prevent the targeting of such exploits.
+Для критических ошибок, которые могут привести к потере средств, важно, чтобы команда Fetch имела возможность выложить исправленную версию до того, как об эксплойте станет известно публично. Таким образом, информация о критических ошибках и их исправлениях будет распространяться после исправления кода, чтобы предотвратить использование таких эксплойтов.
 
-## Terms and conditions
+## Положения и условия
 
-These include, but are not limited to:
+К ним относятся, но не ограничиваются:
 
-* Bounty awards are made at the sole discretion of Fetch.ai and are subject to change and verification. 
-* We will make every attempt to respond to all submissions promptly and to provide rewards in a timely manner but do not make any guarantees as to how long the processing of claims will take. 
-* All users warrant that they are legally able to receive bounties. More specifically: they are of the appropriate age, the work they are submitting is their own and that they are resident in a territory that allows payment of such rewards. 
-* Submitters must be willing to undergo any Know Your Customer (KYC) or Anti-Money Laundering (AML) checks as required.
-* This program is not open to Fetch.ai employees or contractors, past or present. 
-* Fetch.ai reserves the right to alter or discontinue the Bug Bounty Program without notice.
+* Вознаграждения выдаются исключительно по усмотрению Fetch.ai и могут быть изменены и проверены. 
+* Мы приложим все усилия, чтобы оперативно отвечать на все заявки и своевременно выдавать вознаграждения, но не даем никаких гарантий относительно того, сколько времени займет обработка заявок. 
+* Все пользователи гарантируют, что они могут получать вознаграждения на законных основаниях. Более конкретно: они достигли соответствующего возраста, работа, которую они отправляют, является их собственной и что они проживают на территории, которая позволяет выплачивать такие вознаграждения. 
+* Участники должны быть готовы пройти любую проверку на знание своего клиента (KYC) или проверку на отмывание денег (AML), если это необходимо.
+* В этой программе не могут участвовать сотрудники или подрядчики Fetch.ai, прошлые или настоящие. 
+* Fetch.ai оставляет за собой право изменять или прекращать программу Bug Bounty без уведомления.
