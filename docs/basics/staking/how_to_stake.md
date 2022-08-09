@@ -1,65 +1,65 @@
-On this page, you can find instructions on how to stake FET, remove your stake, and claim your staking rewards.
+На этой странице вы найдете инструкции о том, как делать стейкать FET, анстейкать и получать вознаграждение за стейт.
 
-## To Stake
+## Стейкинг
 
-1. Ensure you are logged into your [Fetch wallet](/basics/wallet/getting_started).
-2. On the wallet dashboard, select **Stake**. You should be redirected to the [ledger browser](https://browse-fetchhub.fetch.ai/validators).
-Here you will find a list of every active validator with whom you can stake your FETs. You can also see the amount of FET staked to each validator and their commission rates.
+1. Убедитесь, что вы вошли в свой [Fetch-кошелек] (/basics/wallet/getting_started).
+2. На приборной панели кошелька выберите **Stake**. Вы будете перенаправлены в браузер [ledger browser](https://browse-fetchhub.fetch.ai/validators).
+Здесь вы найдете список всех активных валидаторов, у которых вы можете разместить свои FET. Вы также можете увидеть сумму FET, застейканую каждому валидатору, и их комиссионные.
 
-    !!! info
-        The validators on this page are ordered according to the number of FETs delegated to them and not their reputation or benefits. See [choosing a validator](/basics/staking/redelegation/#choosing-a-validator) for more details.
+    !!! важно
+        Валидаторы на этой странице упорядочены по количеству делегированных им FET, а не по их репутации или преимуществам. Подробнее см. в разделе [выбор валидатора](/basics/staking/redelegation/#choosing-a-validator).
 
-3. Connect your wallet, if it is not yet connected, by pressing **Connect Wallet** at the top right.
+3. Подключите свой кошелек, если он еще не подключен, нажав **Connect Wallet** в правом верхнем углу.
     ![Wallet extension web version](../../images/staking/wallet_web_version.jpg)
-4. Choose a validator to stake your FETs with and hit **Stake**.
+4. Выберите валидатор которому вы хотите застейкать свои FET, и нажмите **Stake**.
 
-    !!! tip
-        To see details of any validator, such as their voting power, self-bonded rate, uptime, active/inactive status at any given time, and contact information, head over to [this page](https://explore.fetch.ai/validators). For a visualization of the validators' voting power (more is NOT better) check out [this page](https://explore.fetch.ai/voting-power-distribution).
+    !!! совет
+        Для просмотра подробной информации о любом валидаторе, такой как его сила голоса, уровень самооблигации, время работы, активный/неактивный статус в любой момент времени и контактная информация, перейдите на [эту страницу](https://explore.fetch.ai/validators). Для визуализации силы голоса валидаторов (больше - НЕ лучше) зайдите на [эту страницу](https://explore.fetch.ai/voting-power-distribution)..
 
-5. In the pop-up, select the amount of FETs you want to delegate to this validator and press **Stake**.
+5. Во всплывающем окне выберите количество FET, которое вы хотите делегировать этому валидатору, и нажмите **Stake**.
 
-    !!! tip
-        Don't forget to leave some FETs undelegated, as some amount is necessary to pay for transaction fees when submitting any transaction to the main network. The fee is very minimal, but it is still important to make sure you have some FETs to pay for it.
+    !!! совет
+        Не забудьте оставить некоторое количество FET не делегированными, так как некоторое количество необходимо для оплаты комиссии за транзакцию при отправке любой транзакции в основную сеть. Комиссия очень минимальна, но все же важно убедиться, что у вас есть некоторое количество FET для ее оплаты.
 
-6. Your Fetch Wallet shows you a summary of the transaction. Review it, select a transaction fee, and if you are happy, hit **Approve** to complete the operation.
+6.Ваш Fetch-кошелек покажет вам сводку по транзакции. Просмотрите ее, выберите комиссию за транзакцию и, если вас все устраивает, нажмите **Approve** для завершения операции.
 
-## To Claim your Rewards
+## Получение вознаграждения
 
-### Using the Fetch Wallet
+### Используя кошелек Fetch
 
-1. Ensure you are logged into your [Fetch wallet](/basics/wallet/getting_started).
-2. From the wallet dashboard select **Claim**.
+1. Убедитесь, что вы вошли в свой [Fetch-кошелек] (/basics/wallet/getting_started).
+2. На панели кошелька выберите **Claim**.
 
-    !!! info
-        This will claim the total rewards accrued for your stakes across every validator.
+    !!! информация
+        Это позволит получить общее вознаграждение, начисленное за стейкинг по всем валидаторам.
 
-3. The wallet shows you a summary of the transaction. Review it, select a transaction fee, and if you are happy, hit **Approve** to complete the operation.
+3. Кошелек покажет вам сводку транзакции. Просмотрите ее, выберите комиссию за транзакцию и, если вас все устраивает, нажмите **Approve** для завершения операции.
 
-You should now see the rewards added to your **Total Balance**.
+Теперь вы должны увидеть, что вознаграждения добавлены к вашему **Общему балансу**..
 
-### Using the Staking dashboard
+### Использование стейкинг дешборда
 
-1. Go to the [ledger browser page](https://browse-fetchhub.fetch.ai/validators).
-2. Connect your wallet, if it is not yet connected, by pressing **Connect Wallet** at the top right.
+1. Перейдите на [страницу браузера ledger](https://browse-fetchhub.fetch.ai/validators).
+2. Подключите свой кошелек, если он еще не подключен, нажав **Connect Wallet** в правом верхнем углу.
   ![Wallet extension web version](../../images/staking/wallet_web_version.jpg)
-3. Click on your wallet address at the top right of the page to go to your **staking dashboard**.
-4. In the **Rewards** section, click **Claim Rewards** for any validator to withdraw the rewards from your stakes with this particular validator.
-5. The wallet shows you a summary of the transaction. Review it, select a transaction fee, and if you are happy, hit **Approve** to complete the operation.
+3. Нажмите на адрес вашего кошелька в правом верхнем углу страницы, чтобы перейти на панель управления **staking dashboard**.
+4. В разделе **Rewards** нажмите **Claim Rewards** для любого валидатора, чтобы вывести вознаграждение от стейкинга этому валидатору.
+5. Кошелек покажет вам сводку по транзакции. Просмотрите ее, выберите комиссию за транзакцию и, если вас все устраивает, нажмите **Approve** для завершения операции.
 
-You should now see the rewards added to your **Total Balance**.
+Теперь вы должны увидеть, что вознаграждения добавлены к вашему **Общему балансу**..
 
-!!! info
-    Rewards are paid on a per-block basis and added to the existing pending rewards.
+!!! информация
+    Вознаграждения выплачиваются за каждый блок и добавляются к существующим отложенным вознаграждениям.
 
-## To Remove your Stake
+## Анстейкинг
 
-1. Go to the [ledger browser page](https://browse-fetchhub.fetch.ai/validators).
-2. Connect your wallet, if it is not yet connected, by pressing **Connect Wallet** at the top right.
+1. Перейдите на [странице браузера ledger](https://browse-fetchhub.fetch.ai/validators).
+2. Подключите свой кошелек, если он еще не подключен, нажав **Connect Wallet** в правом верхнем углу..
   ![Wallet extension web version](../../images/staking/wallet_web_version.jpg)
-3. Click on your wallet address at the top right of the page to go to your **staking dashboard**.
-4. In the **Delegations** section, click **Remove Stake** for the validator you wish to remove your stakes from.
-5. In the pop-up, enter the amount of FETs you wish to remove from your stakes with this validator and click **Remove Stake**.
-6. The wallet shows you a summary of the transaction. Review it, select a transaction fee, and if you are happy, hit **Approve** to complete the operation.
+3. Нажмите на адрес вашего кошелька в правом верхнем углу страницы, чтобы перейти на панель управления **staking dashboard**.
+4. В разделе **Delegations**, нажмите **Remove Stake** напротив валидатора с которого вы хотите забрать свои монеты.
+5. Во всплывающем окне выберите количество FET, которое вы хотите анстейкнуть и нажмите **Remove Stake**.
+6. Кошелек покажет вам сводку по транзакции. Просмотрите ее, выберите комиссию за транзакцию и, если вас все устраивает, нажмите **Approve** для завершения операции.
 
-!!! info
-    When you remove your stake, there is an unbonding (also known as, cooldown) period of 21 days. In your staking dashboard, the **Unbonding Delegations** section shows you the stakes you have removed which are now in the unbonding period. You can also see the amount of FET unbonded and the number of days remaining from the unbonding period. This is how long you need to wait before being able to withdraw the funds to your wallet.
+!!! информация
+    Когда вы анстейкаете свои FET, наступает период разблокировки (также известный как "кулдаун"), который составляет 21 день. На панели стейкинга в разделе **Unbonding Delegations** показаны монеты, которые вы анстейкаете и которые сейчас находятся в периоде разблокировки. Вы также можете увидеть сумму FET, не привязанную к стейкингу, и количество дней, оставшихся до окончания периода привязки. Именно столько времени вам нужно подождать, прежде чем вы сможете вывести средства на свой кошелек.
