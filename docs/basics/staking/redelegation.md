@@ -1,46 +1,46 @@
-Re-delegation means moving some or all of the stakes you delegated with one validator to another.
+Повторное делегирование означает перемещение некоторых или всех застейканых монет, которые вы делегировали одному валидатором, к другому.
 
-!!! note
-    To re-delegate, do not manually remove your stake from one validator and stake with another. This will trigger the unbonding period, causing you to miss out on staking rewards for 21 days while you wait for the unbonding period to end. Re-delegation, unlike manually removing and adding stake, is an instant process for moving some or all of your staked FETs from one validator to another.
+!!! обратите внимание
+    Для повторного делегирования не следует вручную анстейкать монеты с одного валидатора и стейкать другому. Это вызовет период разблокировки, в результате чего вы не сможете получать вознаграждение за стейкинг в течение 21 дня, пока вы будете ждать окончания периода разблокировки. Повторное делегирование, в отличие от ручного анстейкинга и стейкинга, представляет собой мгновенный процесс перемещения части или всех ваших застейканых FET от одного валидатора к другому.
 
-## Why Re-Delegate
+## Зачем ределегировать
 
-There may be different reasons why you might choose to re-delegate and redistribute your stakes. Some examples are:
+Могут быть разные причины, по которым вы решили переделегировать и перераспределить застейканых монеты. Вот несколько примеров:
 
-* **To increase the decentralization and therefore security of the network:** For the Fetch network to be as secure as possible, there should not be a large concentration of stakes (e.g. more than 33% of the delegated FETs) staked within only a small number of (e.g. 10) validators. If you see this is currently the case and that you have also contributed to it by delegating your stakes with one of those validators, you may want to consider redistributing your stakes to some of the other validators.
-* **To reduce your staking risks:** Remember that when you delegate your tokens with a validator, just as you share the rewards for their contribution to the network's consensus protocol, you also share the punishment they would receive if they misbehave and act against the network's protocol. If this happens, your stake with them will be slashed. To reduce this risk, you may choose to re-delegate parts of your stakes to other validators to have a wider stake distribution.
+* **Для повышения децентрализации и, следовательно, безопасности сети:** Чтобы сеть Fetch была максимально безопасной, не должно быть большой концентрации застейканых монет (например, более 33% делегированных FET), у небольшого числа (например, 10) валидаторов. Если вы видите, что это происходит в настоящее время и что вы также способствовали этому, делегируя свои монеты одному из этих валидаторов, вы можете рассмотреть возможность перераспределения своих монет в пользу других валидаторов.
+* **Чтобы снизить риски, связанные со стейкингом:** Помните, что когда вы делегируете свои токены валидатору, вы также разделяете вознаграждение за его вклад в протокол консенсуса сети, вы также разделяете наказание, которое он получит, если будет вести себя неправильно и действовать против протокола сети. Если это произойдет, ваш стейк будет уменьшен. Чтобы уменьшить этот риск, вы можете перераспределить часть своих застейканых монет другим валидаторам, чтобы получить более широкое распределение стейка.
 
-## To Re-Delegate your Stake
+## Для ределигования монет
 
-1. Go to the [ledger browser page](https://browse-fetchhub.fetch.ai/validators).
-2. Connect your wallet, if it is not yet connected, by pressing **Connect Wallet** at the top right.
+1. Перейдите на [страницу браузера ledger](https://browse-fetchhub.fetch.ai/validators).
+2. Подключите свой кошелек, если он еще не подключен, нажав **Connect Wallet** в правом верхнем углу.
   ![Wallet extension web version](../../images/staking/wallet_web_version.jpg)
-3. Click on your wallet address at the top right of the page to go to your **staking dashboard**.
-4. In the **Delegations** section, click **Transfer Stake** for the validator you wish to re-delegate some or all of your stakes from.
-5. In the pop-up, select a validator that you'd like to re-delegate your stakes to.
+3. Нажмите на адрес вашего кошелька в правом верхнем углу страницы, чтобы перейти на панель управления staking dashboard.
+4. В разделе **Delegations** нажмите на **Transfer Stake** напротив валидатора с которого вы хотите ределиговать часть или все свои монеты.
+5. Во всплывающем окне выберите валидатора, которому вы хотите ределигировать свой стейк.
 
-    !!! info
-        The validators are not in any order on the drop-down list. To see the validators' details see [validator voting power distribution](https://explore.fetch.ai/voting-power-distribution) and [validator details](https://explore.fetch.ai/validators).
+    !!! информация
+        В выпадающем списке валидаторы расположены не по порядку. Для просмотра подробностей о валидаторах смотрите [распределение голосов валидаторов](https://explore.fetch.ai/voting-power-distribution) и [подробности о валидаторах] (https://explore.fetch.ai/validators).
 
-6. Enter the amount of FETs you wish to re-delegate to the new validator and click **Transfer Stake**.
-7. The wallet shows you a summary of the transaction. Review it, select a transaction fee, and if you are happy, hit **Approve** to complete the operation.
+6. Введите количество FET, которое вы хотите ределигировать другому валидатору и нажмите **Transfer Stake**.
+7. Кошелек покажет вам сводку по транзакции. Просмотрите ее, выберите комиссию за транзакцию и, если вас все устраивает, нажмите **Approve** для завершения операции.
 
-## Choosing a Validator
+## Выбор валидатора
 
-Choosing a validator to delegate your stake with is an important decision which ultimately impacts the network's security and performance. When you choose a validator, you are essentially casting a vote in the network indicating their trustworthiness, and that it is beneficial to have them participate in the maintenance of the network's operation.
+Выбор валидатора для делегирования своего стейка - это важное решение, которое в конечном итоге влияет на безопасность и производительность сети. Когда вы выбираете валидатора, вы, по сути, голосуете в сети, указывая на его благонадежность и на то, что ему выгодно участвовать в поддержании работы сети.
 
-When it comes to choosing a validator, it is up to you as the delegator to do your own research and due diligence to find out about their reputation and how well they have performed so far. Delegation is meant to be an active role between you and a validator.
+Когда дело доходит до выбора валидатора, вы, как делегирующий, должны провести собственное исследование и проявить должную осмотрительность, чтобы узнать о его репутации и о том, насколько хорошо он работал до сих пор. Делегирование должно быть активной ролью между вами и валидатором.
 
-To help you choose a suitable validator, here is a list of criteria to look for:
+Чтобы помочь вам выбрать подходящий валидатор, вот список критериев, на которые следует обратить внимание:
 
-* Do they have a website?
-* Do they have an active presence on social media (e.g. Twitter, Reddit, Instagram, ...)?
-* Are they easy to contact (e.g. on Discord, Telegram, ...)?
-* Do they have FET self-bonded to their node?
-* Are they active in the community?
-* Do they have a high uptime?
-* Do they offer slashing & double sign protection?
-* Do they participate and vote on proposals?
-* Do they have a mission or set of principles that align with yours?
+* Есть ли у них веб-сайт?
+* Активно ли они представлены в социальных сетях (например, Twitter, Reddit, Instagram, ...)?
+* Легко ли с ними связаться (например, в Discord, Telegram, ...)?
+* Есть ли у них FET, самостоятельно привязанный к их узлу?
+* Активны ли они в сообществе?
+* Имеют ли они высокий аптайм?
+* Предлагают ли они защиту от слэшинга и двойного подписывания блоков?
+* Участвуют ли они в голосовании по предложениям?
+* Есть ли у них миссия или набор принципов, которые совпадают с вашими?
 
-Some of these questions can be answered via our [Native Block Explorer](https://explore.fetch.ai/validators) or [Mintscan](https://www.mintscan.io/fetchai/validators). Some of the others on this list will require you to reach out to validators for answers, which is a good opportunity to see if they are active or not.
+На некоторые из этих вопросов можно получить ответы с помощью наших [Native Block Explorer](https://explore.fetch.ai/validators) или [Mintscan](https://www.mintscan.io/fetchai/validators). Для получения ответов на некоторые другие вопросы из этого списка вам придется обратиться к валидаторам, что является хорошей возможностью проверить, активны ли они или нет.
