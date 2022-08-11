@@ -1,62 +1,62 @@
-The Fetch Wallet allows you to interact with the Fetch network via your browser.
+Кошелек Fetch позволяет взаимодействовать с сетью Fetch через браузер.
 
-## Compatibility
+## Совместимость
 
-The Fetch Wallet works on all Chromium-based web browsers, including [Chrome](https://www.google.com/chrome/), [Brave](https://brave.com), [Edge](https://www.microsoft.com/edge) and [Decentr](https://decentr.net).
+Fetch Wallet работает во всех веб-браузерах на базе Chromium, включая [Chrome](https://www.google.com/chrome/), [Brave](https://brave.com), [Edge](https://www.microsoft.com/edge) и [Decentr](https://decentr.net).
 
-## Get the Wallet
+## Старт работы с кошельком
 
-Install the Fetch wallet from the [Chrome web store](https://chrome.google.com/webstore/detail/fetchai-network-wallet/ellkdbaphhldpeajbepobaecooaoafpg/related?hl=en-GB).
+Установите кошелек Fetch из [Chrome web store](https://chrome.google.com/webstore/detail/fetchai-network-wallet/ellkdbaphhldpeajbepobaecooaoafpg/related?hl=en-GB).
 
-!!! info
-    At this time, you cannot run the [Keplr](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap?hl=en) and Fetch wallets together because they interfere. Please disable the Keplr wallet before using the Fetch wallet.
+!!! важно
+    В настоящее время вы не можете использовать кошельки [Keplr](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap?hl=en) и Fetch вместе, поскольку они мешают друг другу. Пожалуйста, отключите кошелек Keplr перед использованием кошелька Fetch.
 
-## Set up
+## Настройка
 
-After opening the wallet for the first time, you will see the option to:
+После открытия кошелька в первый раз, вы увидите следующие опции:
 
 - [Create a new account](#to-create-a-new-account)
 - [Import an existing account](#import-an-existing-account)
 - [Connect your ledger hardware wallet](#use-ledger-hardware-wallet)
 
-### To Create a New Account
+### Для создания кошелька
 
-* Select `Create new account`
-* Backup your mnemonic seed securely.
+* Выберите `Create new account`
+* Надежно сохраните резервную копию вашего мнемоника.
 
-    !!! warning
-        **KEEP IT SAFE!** Anyone with your mnemonic seed can access your wallet and take your assets.
-    !!! danger
-        **DON'T LOSE IT!** Lost mnemonic seed cannot be recovered! If you lose your mnemonic seed you will lose access to your wallet.
+    !!! предупреждение
+        **ДЕРЖИТЕ В БЕЗОПАСНОСТИ!** Любой человек с вашим мнемоником может получить доступ к вашему кошельку и забрать ваши активы.
+    !!! опасность
+        **Не потеряйте его!** Потерянный мнемоник не может быть восстановлено! Если вы потеряете мнемоник, вы потеряете доступ к своему кошельку.
 
-* Give your account a name and set a password. This password will be used the next time you want to use the wallet or make important changes to your account.
-* Rearrange the mnemonic phrases by clicking on them in the correct order to confirm your mnemonic seed.
+* Дайте своей учетной записи имя и установите пароль. Этот пароль будет использоваться в следующий раз, когда вы захотите воспользоваться кошельком или внести важные изменения в свой аккаунт.
+* Переставляйте мнемонические фразы, нажимая на них в правильном порядке, чтобы подтвердить свой мнемоник.
 
-### To Import an Existing Account
+### Для импорта существующего аккаунта
 
-If you have an account on the Fetch network, for example having had one already on the Fetch wallet and want to access it again, have an account on another wallet (e.g. Cosmostation, Keplr, ...) and wish to bring it to the Fetch wallet, or having created an address using one of our tools (e.g. the [AEA framework](https://docs.fetch.ai/aea)), you can import it into the Fetch wallet:
+Если у вас есть аккаунт в сети Fetch, например, у вас уже был кошелек Fetch и вы хотите получить к нему доступ снова, у вас есть аккаунт на другом кошельке (например, Cosmostation, Keplr, ...) и хотите перенести его на кошелек Fetch, или создали адрес с помощью одного из наших инструментов (например, [AEA framework](https://docs.fetch.ai/aea)), вы можете импортировать его в кошелек Fetch:
 
-* Select `Import existing account`
-* Enter your mnemonic seed (set of words) or private key (hexidecimal)
+* Выберите `Import existing account`
+* Введите мнемоник (набор слов) или приватный ключ (шестнадцатеричный)
 
-    !!! warning
-        **KEEP IT SAFE!** Anyone with your mnemonic seed or private key can access your wallet and take your assets.
+    !!! предупреждение
+        **ДЕРЖИТЕ В БЕЗОПАСНОСТИ!** Любой человек с вашим мнемоником или приватным ключом может получить доступ к вашему кошельку и забрать ваши активы..
 
-* Give your account a name and set a password. This password will be used the next time you want to use the wallet or make important changes to your account.
+* Дайте своей учетной записи имя и установите пароль. Этот пароль будет использоваться в следующий раз, когда вы захотите воспользоваться кошельком или внести важные изменения в свой аккаунт.
 
-### To Use Ledger Hardware Wallet
+### Для использования аппаратного кошелька Ledger
 
-If you have a [Ledger](https://www.ledger.com/) hardware wallet and wish to keep your key and mnemonics on that device while using the Fetch wallet:
+Если у вас есть аппаратный кошелек [Ledger](https://www.ledger.com/) и вы хотите сохранить свой ключ и мнемоник на этом устройстве при использовании кошелька Fetch:
 
-!!! info
-    Currently only [ledger](https://www.ledger.com/) hardware wallets are supported.
+!!! важно
+    На данный момент поддерживают только аппаратные кошельки [ledger](https://www.ledger.com/).
 
-* Select `Import ledger`
-* Give your account a name and set a password. This password will be used the next time you want to use the wallet or make important changes to your account.
-* Follow the instructions on the popup to connect your device.
+* Выберите `Import ledger`
+* Дайте своей учетной записи имя и установите пароль. Этот пароль будет использоваться в следующий раз, когда вы захотите воспользоваться кошельком или внести важные изменения в свой аккаунт.
+* Следуйте инструкциям во всплывающем окне для подключения вашего устройства.
 
-!!! warning
-    Please ensure you keep your mnemonic seed somewhere safe where others cannot access it. If you lose it, your wallet will be inaccessible once you log out. The password for your account should also be kept safe but is not necessary for recovery if you have your mnemonic seed.
+!!! предупреждение
+    Пожалуйста, убедитесь, что вы храните ваш мнемоник в безопасном месте, где другие не смогут получить к нему доступ. Если вы потеряете его, ваш кошелек будет недоступен после выхода из системы. Пароль от вашего аккаунта также следует хранить в надежном месте, но он не нужен для восстановления, если у вас есть мнемоник.
 
-!!! info
-    If you lose your password, you need to uninstall and re-install the Fetch wallet and select `Import existing account`. Then use the mnemonic seed for your account and choose a new password.
+!!! важно
+    Если вы потеряли пароль, вам необходимо переустановить кошелек Fetch и выбрать `Import existing account`. Затем используйте мнемоник для вашей учетной записи и выберите новый пароль.
