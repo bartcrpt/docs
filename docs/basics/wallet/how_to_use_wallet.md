@@ -1,42 +1,42 @@
-# How to Use the Wallet
+# Как пользоваться кошельком
 
-## Deposit Tokens
+## Депозит токенов
 
-To transfer funds to your account on the Fetch wallet:
+Чтобы перевести средства на свой счет на кошельк Fetch:
 
-In the wallet or application you are using to send the funds, use your account's address as the destination account to which the funds must go.
+В кошельке или приложении, которое вы используете для отправки средств, используйте адрес вашего счета в качестве счета назначения, на который должны поступить средства.
 
-### To copy your account's address
+### Чтобы скопировать адрес вашего счета
 
-1. Either click on the account address at the top of the dashboard (under the account name):
+1. Либо нажмите на адрес счета в верхней части дешборда (под именем счета):
 ![Copy active account address](../../images/wallet/address_copy.jpg)
-2. Or select **Deposit** and scan the QR code.
+2. Или выберите **Депозит** и отсканируйте QR-код.
 
-Once you send the tokens, the balance should be updated.
+Как только вы отправите токены, баланс должен обновиться.
 
-!!! failure
-    If your origin wallet says that the address (which should start with "`fetch`") is invalid, it is probably expecting an Ethereum address (beginning with "`0x`") and is most likely trying to send ERC20 FET. In this case, you need to use the [token bridge](https://token-bridge.fetch.ai/) to swap your ERC20 FET for native FET.
+!!! неудача
+    Если ваш оригинальный кошелек говорит, что адрес (который должен начинаться с "`fetch`") недействителен, он, вероятно, ожидает адрес Ethereum (начинающийся с "`0x`") и, скорее всего, пытается отправить ERC20 FET. В этом случае вам необходимо использовать [token bridge](https://token-bridge.fetch.ai/), чтобы обменять ERC20 FET на нативные токены FET.
 
-!!! warning
-    You should **not** send ERC20 FET to this wallet. If you do, you will lose your tokens. The Fetch wallet can only hold native FET tokens and not ERC20 FET tokens.
+!!!  предупреждение
+    Вы **не должны** отправлять FET ERC20 на этот кошелек. В противном случае вы потеряете свои токены. Кошелек Fetch может хранить только нативные токены FET, но не токены FET ERC20.
 
-## Send Tokens
+## Отправка токенов
 
-To send tokens from your account:
+Для отправки токенов с вашего счета:
 
-1. Select **Send**.
-2. Fill in the details of your transaction:
-    * **Recipient**: the address you want to send the tokens to
-    * **Token**: the token denomination or type
-    * **Amount**: the number of tokens you want to send with this transaction (you can see your current balance above the **Amount**)
-    * **Memo (Optional)**: some transactions (e.g. to/from some exchanges) require a specific memo. If not needed, you can leave it blank.
-    * **Fee**: the transaction fee. Choose from **Low**, **Average** and **High**
+1. Выберите **Send**.
+2. Заполните детали транзакции:
+    * **Recipient**: адрес на который вы хотите отправить токены
+    * **Token**: номинал или тип токена
+    * **Amount**: количество токенов, которое вы хотите отправить этой транзакцией  (вы можете увидеть ваш текущий баланс над **Amount**)
+    * **Memo (необязательно)**: некоторые транзакции (например, на/от некоторых бирж) требуют определенного memo. Если оно не требуется, вы можете оставить его пустым..
+    * **Fee**: комиссия за транзакцию. Выберите из **Low** (низкая), **Average** (средняя) и **High** (высокая)
 
-    !!! tip
-        Usually, the lower the transaction fee, the longer you need to wait for your transaction to be settled on the network.
+    !!! совет
+        Обычно, чем ниже комиссия за транзакцию, тем дольше вам придется ждать, пока ваша транзакция будет обработана в сети.
 
-3. Press **Send**.
-4. In the summary screen, review the details and if everything is correct, select **Approve**.
+3. Нажмите **Send**.
+4. На экране сводки просмотрите детали и, если все в порядке, выберите **Approve**.
 
-!!! tip
-    You can check the status of your transaction via [the explorer](https://explore-fetchhub.fetch.ai).
+!!! совет
+    Вы можете проверить статус транзакции через [the explorer](https://explore-fetchhub.fetch.ai).
